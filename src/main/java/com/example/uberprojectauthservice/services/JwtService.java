@@ -96,7 +96,7 @@ public class JwtService implements CommandLineRunner {
         mp.put("phoneNumber", "9999999999");
         String result = createToken(mp, "tush");
         System.out.println("Generated token is: " + result);
-        System.out.println(extractPayload(result, "email").toString());
-        System.out.println("Is token valid: " + validateToken(result, "tush"));
+//        System.out.println(extractPayload(result, "email").toString());
+//        System.out.println("Is token valid: " + validateToken(result, "tush"));
     }
 }
