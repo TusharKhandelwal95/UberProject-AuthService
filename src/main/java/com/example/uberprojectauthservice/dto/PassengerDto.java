@@ -1,11 +1,7 @@
 package com.example.uberprojectauthservice.dto;
 
-import com.example.uberprojectauthservice.models.Passenger;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
+import com.example.uberprojectentityservice.models.Passenger;
 import lombok.*;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
